@@ -1,0 +1,2 @@
+database name : gestionart
+encoding : UTF-8 

@@ -1,0 +1,122 @@
+*{
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    color: #37352f;
+    background-color: #fffefc;
+    margin: 0;padding: 0;
+}
+/**-----------------------------------*/
+
+
+h3,p{ margin: 0;padding: 0;}
+
+input:required, input:invalid { box-shadow:none; }
+
+.input{
+    padding: .2rem .5rem;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+    margin-left: 10px;
+}
+.input:focus{border-color:rgba(0, 0, 0, 0.3);}
+.login{
+    width: 340px;
+    margin: 0 auto 2rem auto;
+    padding: 3rem 0;
+    text-align: center;
+    border-radius: 3px;
+    /* box-shadow: rgba(84, 70, 35, 0.15) 0px 3px 8px, rgba(84, 70, 35, 0.05) 0px 1px 3px; */
+}
+.login table{
+    margin: auto;
+    padding-top: 10px;
+}
+.login td{
+    padding: 10px 0;
+}
+.login h1{ color: rgb(55, 53, 47); }
+#loginbtn{
+    padding: 10px 80px;
+    margin: 15px 10px 20px 10px;
+    font-weight: 700;
+    background: #3083fb;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+#loginbtn:hover{
+    background: #1468df;
+}
+#err{
+    visibility: hidden;
+    color: red;
+}
+.h{
+    text-align: center;
+    color: rgb(55, 53, 47);
+    font-size: 2rem;
+    font-weight: 900;
+    margin: 0;
+}
+.team{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: 100px;
+    margin: auto;
+    padding: 2rem 0;
+    background: #f5f5fa;
+    color: #585858;
+    justify-content: center;
+    align-items: center;
+}
+.member{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+}
+.pic{
+    height: 110px;
+    width: 110px;
+    margin: auto;
+    border-radius: 100%;
+    border: 4px solid #fbfaf8;
+    background-color: transparent;
+    background-image: url(./red.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    box-shadow: rgba(84, 70, 35, 0.15) 0px 3px 8px, rgba(84, 70, 35, 0.05) 0px 1px 3px;
+}
+.member h3{
+    font-weight: 900;
+    margin-top: 20px;
+    font-size: 1rem;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.credit{
+    padding: 3rem;
+    text-align: center;
+}
+
+.red{ background-image: url(./img/red.jpg);}
+.ham{ background-image: url(./img/ham.jpg);}
+.yas{ background-image: url(./img/yas.jpg);}
+.yass{ background-image: url(./img/yasm.jpg);}
+.azd{ background-image: url(./img/azd.jpg);}
+.rac{ background-image: url(./img/rac.jpg);}
+.zaa{ background-image: url(./img/zaa.jpg);}
+.kha{ background-image: url(./img/kha.jpg);}
+.oja{ background-image: url(./img/oja.jpg);}
+                                                                                                                                                        
